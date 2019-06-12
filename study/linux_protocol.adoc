@@ -1,8 +1,0 @@
-= 学习目录
-
-学习，每天积累
-
-:icons: font
-
-* link:linux_protocol_study/linux_protocol_1.html[《探寻linux协议栈》之一:linux协议栈概述]
-* link:linux_protocol_study/linux_protocol_2.html[《探寻linux协议栈》之二:源于skb的一场大联欢]

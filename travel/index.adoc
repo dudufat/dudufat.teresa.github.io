@@ -1,9 +1,0 @@
-= 工作记录
-
-记录每一天工作内容
-
-:icons: font
-
-* link:travel.html[旅行记录]
-* link:travel_sanya.html[三亚旅行计划]
-* link:trip_Romania.html[罗马尼亚出差]
