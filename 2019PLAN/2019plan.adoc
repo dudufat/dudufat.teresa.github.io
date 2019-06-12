@@ -29,3 +29,6 @@ GIT学习手册：`https://git-scm.com/book/en/v2`
 已完成的书单：
 
 - [ ] 待补充
+
+== Keep Exercising
+- [ ] at least 4 days during a week 
