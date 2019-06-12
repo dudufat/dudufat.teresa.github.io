@@ -1,0 +1,31 @@
+= 2019 学习计划
+GB
+:toc:
+:toclevels: 4
+:toc-position: left
+:source-highlighter: pygments
+:icons: font
+:sectnums:
+
+Stay Hungry! Stay Foolish!
+
+== GIT
+GIT学习手册：`https://git-scm.com/book/en/v2`
+
+== Python
+== batch 
+== Autosar
+== 以太网
+== English
+=== 目标
+- [ ] Finally reach Level6. 
+- [ ] Having the ability to communicate with foreigner. 
+
+=== 计划
+- [ ] 每天30分钟以上
+- [ ] 每周1份英文小作
+
+== 坚持阅读
+已完成的书单：
+
+- [ ] 待补充

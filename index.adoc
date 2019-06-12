@@ -4,4 +4,4 @@
 
 :icons: font
 
-* link:test1/test1.html[测]
+* link:test1/test1.html[study]
