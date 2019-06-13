@@ -13,7 +13,7 @@ Stay Hungry! Stay Foolish!
 GIT学习手册：`https://git-scm.com/book/en/v2`
 
 == Python
-== batch 
+== Shell 
 == Autosar
 == 以太网
 == English
