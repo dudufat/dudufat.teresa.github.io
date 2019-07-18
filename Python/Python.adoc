@@ -1,0 +1,22 @@
+= Python学习笔记
+Teresa
+:toc:
+:toclevels: 4
+:toc-position: left
+:source-highlighter: pygments
+:icons: font
+:sectnums:
+
+
+
+`_参考书目《“笨方法”学 Python3》_`
+
+
+== PowerShell command
+
+* [*]  新建文件夹 -> `*mkdir*` 文件夹名
+* [*]  新建文件 -> `*new-item*` filename.format `*-type file*`
+* [*]  删除文件 -> 
+
+
+ 

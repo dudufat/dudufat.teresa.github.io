@@ -7,17 +7,15 @@ GB
 :icons: font
 :sectnums:
 
-Content is KING!
+Stay hungry, Stay foolish
 
-== 关于文档
-文档要写，文档难写，好的文档赏心悦目，赏心悦目的文档更难写。
-内容为王，样式重要。磨刀不误砍柴工！
+== 
 
-好的工具应该具备：门槛低、效率高、能力强、可对比、易发布……
 
 === _WORD_
 
 WORD是最常用的办公文档工具，但要想写出美观的WORD文档真心难。
+
 写一篇技术类文档，许多时间耗在格式上，有违『内容为王、高效专注』。
 
 - [*] 门槛低
@@ -40,13 +38,7 @@ WORD是最常用的办公文档工具，但要想写出美观的WORD文档真心
 
 == Workflow
 
-* hjhjj
-** jjjj
-*** kkkk
 
-. kkk
-.. jkkk
-... llklkjkjk
 
 与代码开发类似，基本流程如下：
 
@@ -115,3 +107,21 @@ image::images/atom.png[]
 <2> 将 `sample.adoc` 输出为 `sample.html`，将 `sample.adoc` 中嵌入的 _plantuml_、 _diaa_ 转为为图片并插入 `sample.html`中
 <3> 将 `sample.adoc` 输出为 `sample.pdf`
 <4> 将 `sample.adoc` 输出为 `sample.html`，并将图片直接嵌入到 `sample.html`，这样不依赖外部图片文件
+
+
+
+NOTE: 简介
+
+TIP: TIP
+
+IMPORTANT: 重要
+
+WARNING: 警告
+
+CAUTION: ensure that
+
+
+[.lead]
+this text
+
+this text
