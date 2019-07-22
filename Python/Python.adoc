@@ -16,7 +16,10 @@ Teresa
 
 * [*]  新建文件夹 -> `*mkdir*` 文件夹名
 * [*]  新建文件 -> `*new-item*` filename.format `*-type file*`
-* [*]  删除文件 -> 
+* [*]  删除文件 -> `*remove-item*` -path 路径/文件夹或文件名
+* [*] 重命名 -> `*rename-item*` 旧文件名 新文件名
+
+
 
 
  
