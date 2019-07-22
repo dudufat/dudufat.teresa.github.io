@@ -19,7 +19,18 @@ Teresa
 * [*]  删除文件 -> `*remove-item*` -path 路径/文件夹或文件名
 * [*] 重命名 -> `*rename-item*` 旧文件名 新文件名
 
+== Exercise 1
+.新建.py文件
+image::exercise1_1.jpg[]
+
+.运行.py文件
+image::exercise1_2.jpg[]
+
+.运行错误提醒
+image::exercise1_3.jpg[]
 
 
 
- 
+
+
+
