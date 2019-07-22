@@ -21,13 +21,18 @@ Teresa
 
 == Exercise 1
 .新建.py文件
-image::exercise1_1.jpg[]
+image::C:\TeresaJiang\powersherllFile\exercise1_1.jpg[]
 
 .运行.py文件
 image::exercise1_2.jpg[]
 
 .运行错误提醒
 image::exercise1_3.jpg[]
+
+.A mountain sunset
+[#img-sunset]
+[caption="Figure 1: ",link=https://www.flickr.com/photos/javh/5448336655]
+image::sunset.jpg[Sunset,300,200]
 
 
 
