@@ -5,8 +5,8 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="GB">
-<title>2019 学习计划</title>
+<meta name="author" content="Teresa">
+<title>Socket</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -505,30 +505,24 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>2019 学习计划</h1>
+<h1>Socket</h1>
 <div class="details">
-<span id="author" class="author">GB</span><br>
+<span id="author" class="author">Teresa</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_git">1. GIT</a></li>
-<li><a href="#_python">2. Python</a></li>
-<li><a href="#_shell">3. Shell</a>
+<li><a href="#_qnx_socket_api">1. QNX Socket API</a>
 <ul class="sectlevel2">
-<li><a href="#_powershell_command">3.1. PowerShell command</a></li>
+<li><a href="#_int_socketint_int_type_int_protocol">1.1. int socket(int , int type, int protocol)</a></li>
+<li><a href="#_getsockopt">1.2. getsockopt</a></li>
+<li><a href="#_setsockopt">1.3. setsockopt</a></li>
+<li><a href="#_struct_sockaddr_in_saddr">1.4. struct sockaddr_in saddr</a></li>
+<li><a href="#_sendto">1.5. sendto</a></li>
+<li><a href="#_malloc_free">1.6. malloc &#8592;&#8594; free</a></li>
+<li><a href="#_clock_gettime">1.7. clock_gettime</a></li>
 </ul>
 </li>
-<li><a href="#_autosar">4. Autosar</a></li>
-<li><a href="#_以太网">5. 以太网</a></li>
-<li><a href="#_english">6. English</a>
-<ul class="sectlevel2">
-<li><a href="#_目标">6.1. 目标</a></li>
-<li><a href="#_计划">6.2. 计划</a></li>
-</ul>
-</li>
-<li><a href="#_坚持阅读">7. 坚持阅读</a></li>
-<li><a href="#_keep_exercising">8. Keep Exercising</a></li>
 </ul>
 </div>
 </div>
@@ -536,100 +530,77 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Stay Hungry! Stay Foolish!</p>
+<p><code><em>website</em></code></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_git">1. GIT</h2>
+<h2 id="_qnx_socket_api">1. QNX Socket API</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_int_socketint_int_type_int_protocol">1.1. int socket(int , int type, int protocol)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>domain 协议簇：</p>
+<div class="ulist">
+<ul>
+<li>
+<p>AF_INET &#8594;指定so_pcb中地址采用ipv4地址类型；</p>
+</li>
+<li>
+<p>AF_INET6 &#8594;采用ipv6地址类型；</p>
+</li>
+<li>
+<p>AF_LOCAL/AF_UNIX &#8594;地址要使用绝对路径</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>type socket类型</p>
+<div class="ulist">
+<ul>
+<li>
+<p>SOCK_STREAM &#8594;provides sequenced, reliable,two-way, connection-based byte streams.</p>
+</li>
+<li>
+<p>SOCK_DGRAM &#8594; supports datagrams, which areconnectionless, unreliable messages of a fixed (typically small) maximum length</p>
+</li>
+<li>
+<p>SOCK_RAW &#8594; provides access to internal networkprotocols and interfaces.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_getsockopt">1.2. getsockopt</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_setsockopt">1.3. setsockopt</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_struct_sockaddr_in_saddr">1.4. struct sockaddr_in saddr</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_sendto">1.5. sendto</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_malloc_free">1.6. malloc &#8592;&#8594; free</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_clock_gettime">1.7. clock_gettime</h3>
 <div class="paragraph">
-<p>GIT学习手册：<code><a href="https://git-scm.com/book/en/v2" class="bare">https://git-scm.com/book/en/v2</a></code></p>
+<p>===</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_python">2. Python</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_shell">3. Shell</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_powershell_command">3.1. PowerShell command</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_autosar">4. Autosar</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_以太网">5. 以太网</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_english">6. English</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_目标">6.1. 目标</h3>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p><i class="fa fa-square-o"></i> Finally reach Level6.</p>
-</li>
-<li>
-<p><i class="fa fa-square-o"></i> Having the ability to communicate with foreigner.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_计划">6.2. 计划</h3>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p><i class="fa fa-square-o"></i> 每天30分钟以上</p>
-</li>
-<li>
-<p><i class="fa fa-square-o"></i> 每周1份英文小作</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_坚持阅读">7. 坚持阅读</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>已完成的书单：</p>
-</div>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p><i class="fa fa-square-o"></i> 待补充</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_keep_exercising">8. Keep Exercising</h2>
-<div class="sectionbody">
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p><i class="fa fa-square-o"></i> at least 4 days during a week</p>
-</li>
-</ul>
 </div>
 </div>
 </div>
