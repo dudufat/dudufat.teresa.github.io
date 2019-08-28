@@ -1,0 +1,49 @@
+= Socket
+Teresa
+:toc:
+:toclevels: 4
+:toc-position: left
+:source-highlighter: pygments
+:icons: font
+:sectnums:
+
+
+
+`_website_`
+
+
+== QNX Socket API
+=== int socket(int , int type, int protocol)
+
+* domain 协议簇：
+
+** AF_INET ->指定so_pcb中地址采用ipv4地址类型；
+
+** AF_INET6 ->采用ipv6地址类型；
+
+** AF_LOCAL/AF_UNIX ->地址要使用绝对路径
+
+* type socket类型 
+
+** SOCK_STREAM ->provides sequenced, reliable,two-way, connection-based byte streams.
+
+** SOCK_DGRAM -> supports datagrams, which areconnectionless, unreliable messages of a fixed (typically small) maximum length
+
+** SOCK_RAW -> provides access to internal networkprotocols and interfaces.
+
+=== getsockopt
+
+=== setsockopt
+
+=== struct sockaddr_in saddr
+
+=== sendto
+
+=== malloc <--> free
+
+=== clock_gettime
+
+=== 
+
+
+

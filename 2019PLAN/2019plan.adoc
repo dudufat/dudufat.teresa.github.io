@@ -14,6 +14,12 @@ GIT学习手册：`https://git-scm.com/book/en/v2`
 
 == Python
 == Shell 
+
+=== PowerShell command
+
+
+
+
 == Autosar
 == 以太网
 == English

@@ -30,8 +30,16 @@ image::Image_python/exercise1_2.jpg[image,600,600,role="center"]
 .运行错误提醒
 image::Image_python/exercise1_3.jpg[image,600,600,role="center"]
 
+== Exercise 2
+
+* [*] 字符串 f-string: f"xxx{var}" 格式化方式 x.format()
+
+.ex2.py
+---
 
 
+
+---
 
 
 
