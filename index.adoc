@@ -4,7 +4,5 @@
 
 :icons: font
 
-* link:test1/test1.html[test]
-* link:2019PLAN/2019plan.html[2019 PLAN]
 * link:Python/Python.html[Python学习笔记]
 * link:Socket/Socket.html[Socket]
