@@ -7,4 +7,4 @@
 * link:test1/test1.html[test]
 * link:Python/Python.html[Python学习笔记]
 * link:Socket/Socket.html[Socket]
-* link:leetcode/leetcode_index.htm;[Leetcode刷题六十天]
+* link:leetcode/leetcode_index.html;[Leetcode刷题六十天]
