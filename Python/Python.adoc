@@ -9,7 +9,7 @@ Teresa
 
 
 
-`_参考书目《“笨方法”学 Python30》_`
+`_参考书目《“笨方法”学 Python3》_`
 
 
 == PowerShell command

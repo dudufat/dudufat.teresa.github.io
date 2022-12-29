@@ -1,0 +1,111 @@
+= Leetcode刷题
+Teresa
+:toc:
+:toclevels: 4
+:toc-position: left
+:source-highlighter: pygments
+:icons: font
+:sectnums:
+
+== Day1| 704.二分查找 27.移除元素
+=== 704二分查找
+[square]
+* Question
+
+    给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
+    来源：力扣（LeetCode）
+
+* Analysis
+
+NOTE: 解此题的重点除了二分法外，还有一个细节也是要充分考虑。就是在解题时，是用了[左闭右闭] 还是[左闭右开)。
+[circle]
+* [左闭右闭]
+[source,c++]
+----
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int left=0;
+        int right = nums.size()-1;//右闭
+        while(left <= right)//此时=是有意义的
+        {
+            int mid = left+((right-left)>>1);
+            auto num=nums[mid];
+            if(num==target)
+            {
+                return mid;
+            }
+            else if(num > target)
+            {
+                right=mid-1;//保持右闭
+            }
+            else
+            {
+                left=mid+1;
+            }
+        }
+        return -1;
+    }
+};
+----
+[circle]
+* [左闭右开)
+[source,c++]
+-----
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int left=0;
+        int right = nums.size();//右开
+        while(left < right)//此时=是没有意义
+        {
+            int mid = left+((right-left)>>1);
+            auto num=nums[mid];
+            if(num==target)
+            {
+                return mid;
+            }
+            else if(num > target)
+            {
+                right=mid;//保持右开
+            }
+            else
+            {
+                left=mid+1;
+            }
+        }
+        return -1;
+    }
+};
+-----
+
+=== 27移除元素
+* Question
+
+    给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
+    不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。
+    元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
+
+    来源：力扣（LeetCode）
+
+* Analysis
+
+NOTE: 直接将非val值放到数组前面，并记录下最后缩放数组位置返回。
+
+[source,c++]
+----
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int index=0;
+        for(auto num: nums)
+        {
+            if(num!=val)
+            {
+                nums[index++]=num;            
+            }
+        }
+        return index;
+    }
+};
+----
