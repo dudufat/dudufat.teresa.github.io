@@ -1,0 +1,62 @@
+= C++学习笔记
+Teresa
+:toc:
+:toclevels: 4
+:toc-position: left
+:source-highlighter: pygments
+:icons: font
+:sectnums:
+
+
+
+`记录工作学习中遇到的一些盲区`
+
+
+== Pointer to member ::*
+
+stackover上有一些解答Link：
+
+https://stackoverflow.com/questions/670734/pointer-to-class-data-member[stackover: pointer to member]
+[square]
+* 获得class或者struct中成员地址
+* 通过pointer to member来访问
+
+.Example
+****
+struct lanemarking
+{
+    int color;
+    int type;
+};
+
+struct camera
+{
+    lanemarking left;
+    lanemarking right;
+};
+
+class Measurement{
+public:
+    lanemarking& LM(camera cam);
+private:
+    camera cam_;
+};
+
+lanemarking& Measurement::LM(camera cam)
+{
+    lanemarking camera::*ptr = &camera::left;
+    return (cam.*ptr);
+}
+****
+
+
+---
+
+
+
+---
+
+
+
+
+

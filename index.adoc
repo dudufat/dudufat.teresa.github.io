@@ -8,3 +8,4 @@
 * link:Python/Python.html[Python学习笔记]
 * link:Socket/Socket.html[Socket]
 * link:leetcode/leetcode_index.html[Leetcode刷题六十天]
+* link:CPlusPlus/cplusplus.html[C++盲区解疑]
